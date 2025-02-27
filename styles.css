@@ -165,6 +165,43 @@
   .clearfix {
     clear: both;
   }
+  /* experience begin */
+  .experience{
+    width: 100%;
+  }
+  .experience .container{
+    width: 960px;
+    margin: 0 auto;
+    margin-top: 100px;
+  }
+  .experience .header{
+    width: 100%;
+    text-align: left;
+    background-color: lightgray;
+    border-radius: 28px;
+    line-height: 2;
+    padding: 40px;
+    position: relative;
+  }
+  .experience .link{
+    color: black;
+    text-transform: capitalize;
+    border: 2px solid black !important;
+    padding: 6px 6px;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+  }
+  .experience p{
+    margin-top: 50px;
+  }
+
+
+
+
+
+
+  /* enf of experience */
   
   /* Styles for larger screens */
   @media screen and (min-width: 720px) {
